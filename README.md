@@ -40,20 +40,29 @@ Catches high-rate ICMP echo floods (DoS-style attacks).
 Uses: sniff(prn=packet_callback, iface=["en0", "lo0"], store=False)
 
 This captures:
+
 	•	Wi-Fi traffic
+	
 	•	Localhost/Nmap traffic
+	
 	•	ARP, TCP, ICMP packets
 
 2. ARP Spoofing
    
 used for:
+
 	•	Man-in-the-Middle attacks
+	
 	•	Session hijacking
+	
 	•	DNS poisoning
+	
 	•	Credential interception
 
 Detection logic
+
 	1.	Track IP → MAC mappings
+	
 	2.	If the same IP suddenly appears with a new MAC → alert
 
 Sample Alert:
@@ -67,8 +76,11 @@ Detects:
 Attackers probing many ports quickly using Nmap: nmap -sS target_ip
 
 Detection logic
+
 	•	Track TCP SYN packets per source IP
+	
 	•	Count unique destination ports in a time window
+	
 	•	Trigger alert if threshold is exceeded
 
 Sample Alert:
