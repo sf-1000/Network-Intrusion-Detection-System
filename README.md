@@ -33,7 +33,7 @@ Catches high-rate ICMP echo floods (DoS-style attacks).
 
 ⸻
 
-🧠How It Works
+# 🧠How It Works
 
 1. Packet Capture (Scapy Sniffer)
 
