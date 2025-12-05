@@ -109,3 +109,14 @@ Sample code:
 🚨 ICMP FLOOD DETECTED!
 
 50 ICMP packets in last 5 seconds.
+
+# 🔧 Technologies Used
+	•	Python 3
+	
+	•	Scapy for packet analysis
+	
+	•	TCP/IP, ARP, ICMP protocol understanding
+	
+	•	Nmap for scan testing
+	
+	•	Wireshark for packet verification
