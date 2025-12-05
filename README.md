@@ -92,12 +92,20 @@ Source IP: 127.0.0.1
 
 Probing 12 ports within 5 seconds.
 
+4. ICMP Flood Detection
 
+What it detects
 
+Large bursts of ICMP echo requests (ping flood).
 
+Detection logic
 
+	•	Count ICMP packets from each IP
+	
+	•	If ≥ threshold in time window → DoS alert
 
+Sample code:
 
+🚨 ICMP FLOOD DETECTED!
 
-4. 
-5. 
+50 ICMP packets in last 5 seconds.
