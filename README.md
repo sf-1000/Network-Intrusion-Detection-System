@@ -1,16 +1,19 @@
 # Network-Intrusion-Detection-System
 
 A lightweight real-time Intrusion Detection System built in Python using Scapy.
-It monitors live network traffic and detects:
+It monitors live network traffic and detects:\
+
 	•	ARP Spoofing 
+	
 	•	SYN Port Scans 
+	
 	•	ICMP Flood Attacks 
 
 This project demonstrates packet-level analysis, protocol understanding, and real-world threat detection techniques in a simple, readable Python tool.
 
 ⸻
 
-🔐 Features
+# 🔐 Features
 
 ✔ Real-time Packet Capture
 
