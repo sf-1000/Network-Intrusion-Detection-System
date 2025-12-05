@@ -68,6 +68,7 @@ Detection logic
 Sample Alert:
 
 🚨 ARP SPOOFING DETECTED!
+
 IP 10.24.96.1 claimed by multiple MACs.
 
 3. Port Scan Detection
@@ -86,7 +87,9 @@ Detection logic
 Sample Alert:
 
 🚨 PORT SCAN DETECTED!
+
 Source IP: 127.0.0.1
+
 Probing 12 ports within 5 seconds.
 
 
