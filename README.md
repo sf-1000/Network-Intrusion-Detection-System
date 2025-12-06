@@ -35,7 +35,7 @@ Catches high-rate ICMP echo floods (DoS-style attacks).
 
 # 🧠How It Works
 
-1. Packet Capture (Scapy Sniffer)
+## 1. Packet Capture (Scapy Sniffer)
 
 Uses: sniff(prn=packet_callback, iface=["en0", "lo0"], store=False)
 
@@ -71,7 +71,7 @@ Sample Alert:
 
 IP 10.24.96.1 claimed by multiple MACs.
 
-3. Port Scan Detection
+## 3. Port Scan Detection
 
 Detects:
 Attackers probing many ports quickly using Nmap: nmap -sS target_ip
@@ -92,7 +92,7 @@ Source IP: 127.0.0.1
 
 Probing 12 ports within 5 seconds.
 
-4. ICMP Flood Detection
+## 4. ICMP Flood Detection
 
 What it detects
 
