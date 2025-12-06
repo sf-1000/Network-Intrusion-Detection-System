@@ -47,7 +47,7 @@ This captures:
 	
 	•	ARP, TCP, ICMP packets
 
-2. ARP Spoofing
+## 2. ARP Spoofing
    
 used for:
 
